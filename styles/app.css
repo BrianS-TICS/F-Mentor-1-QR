@@ -4,15 +4,26 @@ p {
   font-family: "Outfit", sans-serif;
 }
 
+.flex{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
 .bold {
   width: 100%;
   font-weight: bold;
   color: hsl(218, 44%, 22%);
+  font-size: 19px;  
 }
 
 .normal {
   font-weight: 400;
   color: hsl(220, 15%, 55%);
+}
+
+.texto{
+  padding: 0 .7rem;
 }
 
 .container {
@@ -27,8 +38,8 @@ p {
 }
 
 .article {
-  width: 15rem;
-  height: 25rem;
+  width: 17rem;
+  height: 28rem;
   background-color: hsl(0, 0%, 100%);
   border-radius: 1rem;
   padding: 1rem 1rem 0 1rem;
